@@ -2,18 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Happy Mother's Day!</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Happy Mother's Day, Mommy! 💐</h1>
-  <img src="images/mom_photo.jpg" alt="Mom Smiling" class="mom-photo" />
-  <p class="message">Dear Mommy, thank you for your love, strength, and endless support. I love you always! 💖</p>
+  <div class="container">
+    <h1>Happy Mother's Day, Mom! 💐</h1>
+    <img src="images/mom_photo.jpg" alt="Mom Smiling" class="mom-photo" />
+    <p class="message">Dear Mom, thank you for your love, strength, and endless support. I love you always! 💖</p>
 
-  <button onclick="playSurprise()" class="button">Click for a Surprise</button>
-  <p id="surprise-text" style="display:none;">🎵 Enjoy this song, with love! ❤️</p>
-  <audio id="song" src="music/thank_you_mama.mp3"></audio>
+    <div class="hearts">💗 💖 💝 💓 💕</div>
 
+    <button onclick="playSurprise()" class="button">Click for a Surprise</button>
+    <p id="surprise-text" style="display:none;">🎵 Enjoy your favorite song, with love! ❤️</p>
+    <audio id="song" src="music/thank_you_mama.mp3"></audio>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
